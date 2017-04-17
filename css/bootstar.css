@@ -1,0 +1,249 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	font-family: "微软雅黑","苹方";
+	text-decoration: none;
+}
+
+body{
+	background: #F2F2F2;
+	font-size: 14px;
+    
+}
+header{
+	padding: 138px 0 0;
+    background: url('../img/2de797545de56274f03a5920eb3a1.jpg');
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size:cover;
+    text-align: center;
+    min-height: 400px;
+    position: relative;
+    box-sizing: border-box;
+    margin-bottom: 90px;
+}
+
+.logoimg {
+    position: absolute;
+    left: 1%;
+    right: 1%;
+    bottom: -38px;
+}
+.logotxt {
+    margin-bottom: 30px;
+    border: 0;
+}
+.logotxt a {
+    font-weight: 700;
+    color: #fff;
+    font-size: 64px;
+    text-align: center;
+}
+.logotxt a:hover{
+	text-decoration: underline;
+}
+header h2 {
+    color: #fff;
+    padding: 0;
+    margin: 0 0 45px;
+    font-weight: 100;
+    font-size: 34px;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+.row li{
+	padding: 0px  15px;
+	margin-bottom: 30px;
+
+}
+.row ul:after{
+ content: "";
+ display: block;
+ width: 0px;
+ height: 0px;
+ clear: both;
+}
+.row li .img-item{
+	padding: 12px;
+	background: white;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+
+}
+.row li .img-item>img{
+	display: block;
+	width: 532px;
+	height: 332px;
+}
+.row li .img-item figcaption{
+	width:100% ;
+	height:30px ;
+    color:#777;
+    font-size: 24px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
+.row li .img-item figcaption:hover{
+	color: black;
+	text-decoration: underline;
+}
+.pagination {
+    display: block;
+    position: relative;
+    text-align: center;
+    color: #666;
+    font-size: 13px;
+}
+.pagination .page-number {
+    color: #39414a;
+}
+.pagination>a.older-posts {
+    right: 10px;
+}
+.pagination>a {
+    border: 1px solid #39414a;
+    position: absolute;
+    top: -10px;
+    padding: 10px;
+    color: #39414a;
+    white-space: nowrap;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.submit-site {
+    background-color: #eee;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 20px;
+}
+.text-center {
+    text-align: center;
+}
+.main-footer {
+    background: #202020;
+    padding: 35px 0 0;
+    color: #959595;
+}
+.main-footer .widget {
+    padding: 0 30px;
+}
+.widget {
+    margin-bottom: 35px;
+}
+.main-footer .widget .title {
+    color: #fff;
+    border-bottom: 1px solid #303030;
+}
+.widget .title {
+    margin-top: 0;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 21px;
+    position: relative;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.1;
+}
+.widget .title:after {
+    content: "";
+    width: 90px;
+    height: 1px;
+    background: #337ab7;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+}
+.friend-links a {
+    display: block;
+    border-bottom: 1px dashed #303030;
+    padding-bottom: 14px;
+    margin-bottom: 14px;
+    color: #959595;
+    transition: all .2s ease;
+}
+.main-footer .widget .tag-cloud a {
+    border: 1px solid #303030;
+}
+.widget .tag-cloud a {
+    border: 1px solid #ebebeb;
+    padding: 2px 7px;
+    color: #959595;
+    line-height: 1.5em;
+    display: inline-block;
+    margin: 0 7px 7px 0;
+    transition: all .2s ease;
+}
+.crr{
+	display: none;
+}
+.copyright{
+	background: #111;
+	font-size: 13px;
+	text-align: center;
+	color:#555;
+	padding-top: 14px;
+	padding-bottom: 20px;
+	border-top: 1px solid #303030; 
+}
+.copyright span{
+	margin: 0.5em;
+}
+.copyright a{
+	color: #555;
+}
+
+
+
+@media screen and (max-width: 1200px){
+
+
+	.row li .img-item>img{
+	width: 432px;
+	height: 270px;
+}
+	
+}
+
+@media screen and (max-width: 992px){
+.row li .img-item>img{
+	width: 696px;
+	height: 432px;
+}
+	.row .special .img-item>img{
+  	width: 321px;
+  	height: 195px;
+  }
+  .special{
+  	width: 50%;
+  }
+}
+@media screen and (max-width: 750px){
+  .container{
+	width: 94%;
+
+	}
+  .row li .img-item>img{
+	width: 100%;
+	height: auto;
+}
+  .special{
+  	width: 100%;
+  }
+  .row .special .img-item>img{
+  	width: 100%;
+  	height: auto;
+  }
+  .crr{
+  	display: block;
+  }
+  .laoda{
+  	display: none;
+  }
+	
+}
+
+
